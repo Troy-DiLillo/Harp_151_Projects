@@ -1,0 +1,79 @@
+
+/* The unique styling elements I chose were font-size, opacity, and whitespace
+I made my font size easier to read, made my image a little more opaqur for style purposes, and made it
+so if any text were to overflow, it wouldnt wrap.  */
+
+
+img {
+    opacity: 0.5;
+  }
+
+*{/* Global Variable */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+    
+}
+
+#title {
+    margin-left: 100px
+}
+
+
+
+.main{
+/* Local Variable */
+    display: inline-block; 
+    background-color: rgb(63, 148, 246);
+    padding: 100px;
+    position: relative;
+    margin: auto;
+    white-space: nowrap;
+    
+  
+  overflow: hidden;
+  text-overflow: clip;
+    
+    
+}
+
+.side{
+/* Local Variable */
+    display: inline-block; 
+    background-color: rgb(73, 166, 228);
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    border: 2px dotted rgb(254, 74, 9);
+    
+}
+
+.sidebuttons{
+/* Local Variable */
+    display: inline-block; 
+    background-color: rgb(217, 239, 24);
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    
+    
+    
+}
+
+
+.maintable{
+    /* Local Variable */
+    background-color: rgb(215, 237, 14); 
+    
+    padding-top: 5px;
+    padding-right:5px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom:25px;
+    margin-left: 50px;
+
+    height:50%;
+    width: 50%;
+}
